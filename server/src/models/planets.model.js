@@ -23,11 +23,11 @@ function loadPlanetsData() {
                 }
             })
             .on('error', (err) => {
-                console.log(err);
+                // console.log(err);
                 rejects(err);
             })
             .on('end', () => {
-                console.log(`${habitablePlanets.length} habitable planets found!`);
+                // console.log(`${habitablePlanets.length} habitable planets found!`);
                 resolve();
             });
     });

@@ -20,5 +20,9 @@
     "morgan": "^1.10.0",
     "server": "^1.0.37"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.3.0",
+    "supertest": "^6.3.1"
+  }
 }
